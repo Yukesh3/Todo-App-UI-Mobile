@@ -1,0 +1,190 @@
+
+.blur{
+    filter: blur(3px);
+}
+
+.new{ 
+    width: 427px;
+height: 208px;
+border: 3px solid red;
+border-radius: 20px;
+position: absolute;
+top: 256px;
+left: 581px;
+text-align: center;
+background-color: white;
+
+}
+
+.button{
+    border-radius: 14px;
+    background-color: red;
+}
+
+.leftshift{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 360px) and (min-height: 640px){
+
+    .blur{
+        filter: blur(3px);
+    }
+    
+    .new{ 
+        width: 340px;
+        height: 232px;
+        border: 1px solid red;
+        border-radius: 20px;
+        position: absolute;
+        top: 210px;
+        left: 7px;
+        text-align: center;
+        background-color: white;
+    
+    }
+    
+    .button{
+        border-radius: 14px;
+        background-color: red;
+       
+    }
+    
+    .leftshift{
+        text-decoration: none;
+        font-size: 30px;
+        color: red;
+        font-weight: bold;
+    }
+
+
+    .title{
+        color: black;
+        position: absolute;
+        top: 0px;
+        left: 25px;
+    
+    }
+    
+    .list{
+        color: gray;
+    }
+    
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .item1{
+        width: 301px;
+        height: 80px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 1px;
+        margin-left: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    .item2{
+        width: 301px;
+        height: 80px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    .item3{
+        width: 301px;
+        height: 80px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .item4{
+        width: 301px;
+        height: 80px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 26px;
+        text-align: center;
+        display: block;
+    }
+    
+    .item5{
+        width: 301px;
+        height: 80px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 26px;
+        text-align: center;
+        display: block;
+    }
+    
+    .sub{
+        position: relative;
+        top: 25px;
+        left: -62px;
+        color: gray;
+        
+    }
+    
+    .hr1{
+        display: none;
+        margin-left: 58px;
+        width: 228px;
+        margin-top: 35px;
+    }
+    
+    .complete{
+        color: red;
+        text-decoration: line-through;
+        display: none;
+    }
+    
+    .check{
+        color: red;
+        display: none;
+    }
+    
+    .icon{
+        position: relative;
+        width: 35px;
+        top: -1px;
+        left: 294px;
+    }
+    
+    .add{
+        display: inline-block;
+        color: gray;
+        position: relative;
+        top: 127px;
+        left: 1090px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
